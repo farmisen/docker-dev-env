@@ -1,0 +1,18 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    choice (0.2.0)
+    rainbow (2.1.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  choice
+  rainbow
+
+RUBY VERSION
+   ruby 2.3.0p0
+
+BUNDLED WITH
+   1.12.5

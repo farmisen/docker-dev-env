@@ -1,0 +1,12 @@
+---
+machine:
+  name: # docker machine name (default to 'default')
+services:
+  web:
+    rsync_ssh_port: 5022 # exposed ssh port by the rsync-docker container
+    context: ../my_project # where the folder to sync is
+    volume_name: /my_project # name of the volume set in the rsync-docker image
+    exclude:
+      - .git
+      - .idea
+      - tmp
